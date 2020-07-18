@@ -1,0 +1,112 @@
+
+/*start global*/
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 4000px;
+
+}
+
+/*end global*/
+
+
+/*Start My Frame WOrk*/
+.container {
+    width: 1000px;
+    margin: auto
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.upper {
+    text-transform: uppercase
+}
+
+.clearfix {
+    clear: both
+}
+
+.special-heading {
+    position: relative;
+}
+
+.main-color {
+    color: $maincolor
+}
+
+.overlay {
+    background: rgba(47, 52, 61, .8);
+    height: 100%;
+    width: 100%
+}
+
+.main-bc {
+    background-color: #f7600e
+}
+
+.special-heading:after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 44px;
+    left: 0;
+    width: 5%;
+    border-bottom: 2px solid #333;
+}
+
+.line {
+    border: 1px solid #eee;
+}
+
+.hidden {
+    display: none;
+}
+
+::-webkit-input-placeholder {
+
+    font-size: $mainFontSize -2;
+}
+
+:-ms-input-placeholder {
+
+    font-size: $mainFontSize -2;
+}
+
+:-moz-input-placeholder {
+
+    font-size: $mainFontSize -2;
+}
+
+.hover:hover {
+    background-color: $maincolor;
+    border: none;
+    color: #fff;
+}
+
+.animat {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/*ENd My Frame WOrk*/
